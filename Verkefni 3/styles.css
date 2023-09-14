@@ -1,4 +1,4 @@
- /* Reset some default styles */
+
 *{
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 
 #containerIntro1  {
   background-color: #2f0505;
-  border: 8px, #ffe7ae;
+  border: 8px #ffe7ae;
   color:#ffe7ae;
   text-align: center;
 }
@@ -22,7 +22,7 @@ body {
 
 #containerEfst1 {
   background-color: #ffe7ae;
-  border: 20px, #ffe7ae;
+  border: 20px #ffe7ae;
   color: #2f0505;
   align-self: center;
   display: flex;
@@ -32,7 +32,7 @@ body {
 
 #containerEfst2 {
   background-color: #ffe7ae;
-  border: 20px, #ffe7ae;
+  border: 20px #ffe7ae;
   color: #2f0505;
   align-self: center;
   display: flex;
@@ -41,7 +41,7 @@ body {
 
 #containerEfst3 {
   background-color: #ffe7ae;
-  border: 2px, #ffe7ae;
+  border: 2px #ffe7ae;
   color: #2f0505;
   align-self: center;
   display: flex;
@@ -50,7 +50,7 @@ body {
 
 #containerEfst4 {
   background-color: #ffe7ae;
-  border: 2px, #ffe7ae;
+  border: 2px #ffe7ae;
   color: #2f0505;
   align-self: center;
   display: flex;
@@ -59,7 +59,7 @@ body {
 
 footer {
   background-color: #2f0505;
-  border: 200px, #ffe7ae;
+  border: 200px #ffe7ae;
   color: #ffe7ae;
   align-self: center;
   display: flex;
