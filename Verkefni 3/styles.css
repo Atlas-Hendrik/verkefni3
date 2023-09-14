@@ -6,11 +6,10 @@
 
 
 
-#containerIntro h1,
-#containerIntro p {
+#containerIntro1  {
   background-color: #2f0505;
   border: 8px, #ffe7ae;
-  color:#f5f5f5;
+  color:#ffe7ae;
   text-align: center;
 }
 
@@ -21,20 +20,41 @@ body {
 }
 
 
-h2 {
+#containerEfst1 {
+  background-color: #ffe7ae;
+  border: 20px, #ffe7ae;
+  color: #2f0505;
+  align-self: center;
+  display: flex;
   text-align: center;
-  padding: 40px;
+  padding: 2rem;
 }
 
-h3{
-  font-size: 28px;
-  color: #333;
+#containerEfst2 {
+  background-color: #ffe7ae;
+  border: 20px, #ffe7ae;
+  color: #2f0505;
+  align-self: center;
+  display: flex;
+  text-align: center;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-top: 20px;
+#containerEfst3 {
+  background-color: #ffe7ae;
+  border: 2px, #ffe7ae;
+  color: #2f0505;
+  align-self: center;
+  display: flex;
+  text-align: center;
+}
+
+#containerEfst4 {
+  background-color: #ffe7ae;
+  border: 2px, #ffe7ae;
+  color: #2f0505;
+  align-self: center;
+  display: flex;
+  text-align: center;
 }
 
 footer {
@@ -43,7 +63,7 @@ footer {
   color: #ffe7ae;
   align-self: center;
   display: flex;
-
+  text-align: center;
 }
 
 #containerFooter1 {
@@ -56,12 +76,7 @@ footer {
 .flex {
   display: flex;
   flex-wrap: wrap;
-}
-
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 20px);
+  text-align: center;
 }
 
 
@@ -72,6 +87,7 @@ div > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 
@@ -85,19 +101,16 @@ div > div {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  
+  text-align: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 20px);
-}
 
-div > div {
+.div > div {
   box-sizing: border-box;
   border: 200px solid #ffe7ae;
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
